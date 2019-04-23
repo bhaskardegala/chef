@@ -1,4 +1,5 @@
 # maven
 
-TODO: Enter the cookbook description here.
+this cookbook is all about installing java , maven and downloading shopizer from git hub
+#assessment 2
 
