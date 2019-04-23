@@ -1,13 +1,13 @@
 ---
 driver:
   name: ec2
-  aws_ssh_key_id: cheftrail
-  region: us-east-2
-  availability_zone: us-east-2c
-  subnet_id: subnet-2f4c9063 # subnet-id noted from above steps
+  aws_ssh_key_id: 
+  region: 
+  availability_zone: 
+  subnet_id:  # subnet-id noted from above steps
   instance_type: t2.micro # as it is free instance type
-  image_id: ami-0c55b159cbfafe1f0 # image id of ubuntu
-  security_group_ids: ["sg-098ac8a0420d6a4bc"]
+  image_id:  # image id of ubuntu
+  security_group_ids: 
 
 provisioner:
   name: chef_zero
@@ -16,8 +16,8 @@ provisioner:
   #   always_update_cookbooks: <%= !ENV['CI'] %>
   always_update_cookbooks: true
 transport:
-  username: ubuntu
-  ssh_key: ./cheftrail.pem
+  username: 
+  ssh_key: 
   connection_timeout: 10
   connection_retries: 5
 
@@ -25,7 +25,7 @@ verifier:
   name: inspec
 
 platforms:
-  - name: ubuntu-18.04
+  - name: 
 
 suites:
   - name: default
