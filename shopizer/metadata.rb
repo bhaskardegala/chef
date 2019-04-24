@@ -1,6 +1,6 @@
 name 'maven'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Bhaskar Degala'
+maintainer_email 'bhaskardegala33.com'
 license 'All Rights Reserved'
 description 'Installs/Configures maven'
 long_description 'Installs/Configures maven'
